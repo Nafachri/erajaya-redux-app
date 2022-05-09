@@ -21,10 +21,12 @@ const EmployeePage = () => {
   };
 
   const onOkModalEdit = () => {
+    setRowSelectionData({});
     setVisible(false);
   };
 
   const onCancelModalEdit = () => {
+    setRowSelectionData({});
     setVisible(false);
   };
 
